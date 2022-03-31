@@ -1,0 +1,70 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+button{
+  margin: 10px;
+}
+
+.create-button {
+  background: green;
+  border: 0;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  transition: 0.4s ease;
+}
+
+.create-button:hover {
+  background: black;
+  cursor: pointer;
+}
+
+.edit-button {
+  background: blue;
+  border: 0;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  transition: 0.4s ease;
+}
+
+.edit-button:hover {
+  background: black;
+  cursor: pointer;
+}
+
+.delete-button {
+  background: red;
+  border: 0;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  transition: 0.4s ease;
+}
+
+.delete-button:hover {
+  background: black;
+  cursor: pointer;
+}
+
+.form-group{
+  display: inline-block;
+  margin: 10px;
+}
+
+input{
+  margin-left: 5px;
+}
